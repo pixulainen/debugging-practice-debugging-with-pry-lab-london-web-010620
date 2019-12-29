@@ -14,7 +14,7 @@ end
 def greet_crew (crew)
   arr=[]
   crew.each do |member|
-   arr << "Hello #{member}"
+   arr << "Hello #{member}."
   end
   arr
 end
